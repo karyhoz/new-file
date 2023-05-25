@@ -1,0 +1,603 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.menue-bar{
+    display: flex;
+    background: #FFF2AC;
+    margin: 0;
+    border-bottom: solid black 1px;
+}
+
+
+.the-head{
+    display: flex;
+    margin-top: 20px;
+}
+
+.st-bar{
+    padding-left: 30px;
+    margin-top: 8px;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 1000;
+}
+
+li{
+list-style: none;
+font-family: sans-serif;
+margin: 15px;
+align-items: center;
+}
+
+.pet-food{
+    position: absolute;
+width: 150px;
+left: 1105px;
+}
+
+.trainers{
+position: absolute;
+width: 150px;
+left: 916px;
+}
+
+.why-pets{
+position: absolute;
+width: 150px;
+left: 727px;
+}
+
+.trangle{
+    display: inline-block;
+    position: absolute;
+    width: 115px;
+    height: 73px;
+    top: 0px;
+    left: 1237px;
+    background: #FF6161;
+    padding-left: 15px;
+}
+
+.last-bar{
+    position: absolute;
+    box-sizing: border-box;
+    width: 65px;
+    height: 30px;
+    padding-top: 2px;
+    padding-left: 2px;
+    top: 6px;
+    bottom: 30px;
+    border: 2px solid #000000;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 17px;
+    text-indent: 7px;
+}    
+
+.second{
+    background: #FFF2AC;
+    background-image: url(/surage/upper\ backgrnd.png);
+    padding-top: 8%;
+    padding-bottom: 80px;
+}
+
+.man-dog{
+    position: absolute;
+    width: 450px;
+    left: 61.26%;
+    right: 10.61%;
+    top: 24.2%;
+bottom: 100.3%;
+}
+
+.paragraph-1{
+    padding-top: 5px;
+    display: flex;
+    width: 450px;
+    left: 0px;
+    margin-left: 60px;
+
+    font-family: 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 38px;
+    line-height: 46px;
+    color: #FF6161;
+}
+
+.paragraph-2{
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 60px;
+}
+
+.rectangle{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 3px;
+    padding-left: 35px;
+    padding-top: 12px;
+    color: #000000;
+    bottom: 30px;
+
+box-sizing: border-box;
+width: 160px;
+height: 58px;
+left: 8px;
+top: 456;
+background: #FF6161;
+border: 3px dashed #000000;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.woman-dog{
+    display: inline-block;
+    width: 362px;
+    padding-left: 212px;
+}
+
+.page-1{
+    display: flex;
+    padding-bottom: 70px;
+    background: #FF6161;
+}
+
+.page-side{
+    padding-left: 284px;
+ display: flex;
+padding-top: 60px;
+font-family: 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 950;
+font-size: 24px;
+}
+
+.the-text{
+padding-left: 2px;
+position: absolute;
+width: 546px;
+height: 213px;
+left: 863px;
+top: 686px;
+line-height: 18px;
+
+}
+
+.page-2{
+    background: #FFF2AC;
+    box-sizing: border-box;
+    height: 7%;
+width: 1366px;
+padding: 10px;
+}
+
+.inner-page-2{
+    box-sizing: border-box;
+position: absolute;
+width: 1330px;
+height: 420px;
+left: 55px;
+top: 1307px;
+}
+
+.Our-Super-Trainers{
+    position: absolute;
+    width: 280px;
+    height: 38px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;  
+    
+ display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 12px;
+gap: 10px;
+position: absolute;
+width: 262px;
+height: 64px;
+left: 557px;
+top: 1100px;
+background: #FF6161;
+flex: none;
+order: 0;
+flex-grow: 20;
+}
+
+.caot-the-super-trainers{
+    position: absolute;
+ flex: none;
+order: 0px;
+flex-grow: 0px;
+box-sizing: border-box;
+position: absolute;
+width: 1230px;
+height: 430px;
+left: 80px;
+top: 1129px;
+border: 4px solid #000000;
+}
+
+.the-teem-image{
+    width: 1200px;
+    padding-left: 77px;
+    padding-top: 80px;
+}
+
+h2{
+    padding-top: 70px; 
+    margin-left: 60px;   
+font-style: normal;
+font-weight: 550;
+font-size: 40px;
+line-height: 64px;
+    color: white;
+    font-family: 'Lora';
+}
+
+.last-page{
+    position: absolute;
+    width: 1365px;
+    height: 788px;
+    left: 0px;
+    background: #000000;
+}
+
+.linered{
+    position:absolute;
+    padding-top: 10px;
+    width: 1259px;
+    left: 60px;
+    border-bottom: solid 3px  #FF6161;
+}
+
+.beside-dog{
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 980px;
+    margin-left: 190px;
+    top: 270px;
+    bottom: 370px;
+    border: 3px solid #FFF2AC;
+    background-image: url(/surage/dog\ food.png);
+    background-repeat: no-repeat; 
+}
+
+.beside-dog-1{
+    box-sizing: border-box;
+    position: absolute;
+    left: 700px;
+    right: 463px;
+    margin-left: 0px;
+    top: 270px;
+    bottom: 370px;
+    border: 3px solid #FFF2AC;
+    background-image: url(/surage/dog\ food.png);
+    background-repeat: no-repeat; 
+}
+
+.beside-dog-2{
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 980px;
+    margin-left: 190px;
+    top: 480px;
+    bottom: 160px;
+    border: 3px solid #FFF2AC;
+    background-image: url(/surage/dog\ food.png);
+    background-repeat: no-repeat; 
+}
+
+.beside-dog-3{
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 700px;
+    right: 460px;
+    margin-left: 0px;
+    top: 480px;
+    bottom: 160px;
+    border: 3px solid #FFF2AC;
+    background-image: url(/surage/dog\ food.png);
+    background-repeat: no-repeat; 
+}
+
+.inside-dog{
+    box-sizing: border-box;
+    position: absolute;
+    left: 28%;
+    right: 750px;
+    top: 34.4%;
+    bottom: 46.9%;
+    border: 3px dashed #FFF2AC;
+    background: #2B2B2B;
+}
+
+.inside-dog-2{
+    box-sizing: border-box;
+    position: absolute;
+    left: 896px;
+    right: 220px;
+    top: 34.4%;
+    bottom: 46.9%;
+    border: 3px dashed #FFF2AC;
+    background: #2B2B2B;
+}
+
+.inside-dog-3{
+    box-sizing: border-box;
+    position: absolute;
+    left: 380px;
+    right: 750px;
+    top: 480px;
+    bottom: 160px;
+    border: 3px dashed #FFF2AC;
+    background: #2B2B2B;
+}
+
+.inside-dog-4{
+    box-sizing: border-box;
+    position: absolute;
+    left: 898px;
+    right: 220px;
+    top: 480px;
+    bottom: 160px;
+    border: 3px dashed #FFF2AC;
+    background: #2B2B2B;
+}
+
+
+ .iner-1{
+    position: absolute;
+    left: 20%;
+    right: 24.28%;
+    top: 15.62%;
+    bottom: 66.25%;
+    color: whitesmoke;
+    font-style: normal;
+    font-style: normal;
+    line-height: 29px;
+    font-size: 22px;
+    font-weight: 600;
+}    
+
+.iner-01{
+    position: absolute;
+    left: 20%;
+    right: 20px;
+    top: 15.62%;
+    bottom: 66.25%;
+    color: whitesmoke;
+    font-style: normal;
+    font-style: normal;
+    line-height: 29px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.iner-04{
+    position: absolute;
+    left: 20%;
+    right: 24.28%;
+    top: 15.62%;
+    bottom: 66.25%;
+    color: whitesmoke;
+    font-style: normal;
+    font-style: normal;
+    line-height: 29px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.iner-07{
+    position: absolute;
+    left: 20%;
+    right: 24.28%;
+    top: 15.62%;
+    bottom: 66.25%;
+    color: whitesmoke;
+    font-style: normal;
+    font-style: normal;
+    line-height: 29px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.inner-2{
+    position: absolute;
+    left: 20%;
+    right: 18.94%;
+    top: 39.38%;
+    bottom: 48.12%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: whitesmoke;
+}
+
+.inner-02{
+    position: absolute;
+    left: 20%;
+    right: 18.94%;
+    top: 39.38%;
+    bottom: 48.12%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: whitesmoke;
+}
+
+.inner-05{
+    position: absolute;
+    left: 20%;
+    right: 18.94%;
+    top: 39.38%;
+    bottom: 48.12%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: whitesmoke;
+}
+
+.inner-08{
+    position: absolute;
+    left: 20%;
+    right: 18.94%;
+    top: 39.38%;
+    bottom: 48.12%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: whitesmoke;
+}
+
+
+.inner-3{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 17px;
+gap: 10px;
+position: absolute;
+left: 20%;
+right: 31.7%;
+top: 63.75%;
+bottom: 12.5%;
+background: #FFF2AC;
+width: 52px;
+height: 18px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+}
+
+.inner-03{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 17px;
+gap: 10px;
+position: absolute;
+left: 20%;
+right: 31.7%;
+top: 63.75%;
+bottom: 12.5%;
+background: #FFF2AC;
+width: 52px;
+height: 18px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+}
+
+.inner-06{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 17px;
+    gap: 10px;
+    position: absolute;
+    left: 20%;
+    right: 31.7%;
+    top: 63.75%;
+    bottom: 12.5%;
+    background: #FFF2AC;
+    width: 52px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.inner-09{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 17px;
+    gap: 10px;
+    position: absolute;
+    left: 20%;
+    right: 31.7%;
+    top: 63.75%;
+    bottom: 12.5%;
+    background: #FFF2AC;
+    width: 52px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.view-more{
+ background: #000000;
+width: 210px;
+height: 30px;
+top: 190px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+text-indent: 23px;
+line-height: 38px;
+color: #000000;
+box-sizing: border-box;
+position: absolute;
+width: 266px;
+height: 48px;
+left: 540px;
+top: 680px;
+background: #FF6161;
+border: 3px dashed #000000;
+}
+
+.bottom{
+ padding-top: 40px;
+width: 378px;
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 11px;
+color: #FFFFFF;
+position: absolute;
+width: 1365px;
+height: 56px;
+left: 0px;
+top: 761px;
+background: #2B2B2B;
+}

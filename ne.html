@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <style>
+
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body{
+            background-color: black;
+            background-image: url(/images/for\ web\ glob.jpg);
+            background-size: cover;
+            background-position: center;
+            box-sizing: border-box;
+            background-repeat: no-repeat;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+
+        .menue-bar{
+            background: black;
+            text-align: center;
+        }
+
+
+        .menue-bar ul{
+            display: inline-flex;
+            list-style: none;
+            color: #fff;
+        }
+
+
+        .menue-bar ul li{
+            width: 120px;
+            margin: 10px;
+            padding: 10px;
+
+        }
+
+        .menue-bar ul li a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .active, .menue-bar ul li:hover{
+            background: #2bad0d;
+            border-radius: 3px;
+        }
+
+        .menue-bar .bi{
+            margin-right: 8px;
+
+        }
+
+        .submenue1{
+
+            display: none;
+        }
+
+
+        .menue-bar ul li:hover .submenue1
+        {
+            display: block;
+            position: absolute;
+            background: rgb(0, 100, 0);
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+
+
+        .menue-bar ul li:hover .submenue1 ul
+        {
+            display: block;
+            margin: 10px;
+        }
+
+
+        .menue-bar ul li:hover .submenue1 ul li{
+            width: 150px;
+            padding: 10px;
+            border-bottom: 1px dotted #fff;
+            background: transparent;
+            border-radius: 0;
+            text-align: left;
+        }
+        
+        .menue-bar ul li:hover .submenue1 ul li:last-child
+        {
+            border-bottom: none;
+        }
+
+        .menue-bar ul li:hover .submenue1 ul li a{
+            color: #b2ffb2;
+        }
+
+
+        .bi-arrow-right{
+            float: right;
+        }
+        
+    </style>
+    <title>Document</title>
+</head>
+
+
+<body>
+    
+    <div class="menue-bar">
+
+        <ul>
+
+            <li class="active"><i class="bi bi-house"></i><a href="#">Home</a>  </li>
+
+            <li><i class="bi bi-person"></i><a href="#">About Us</a>
+
+                <div class="submenue1">
+
+           <ul>
+
+           <li> <a href="#">Mission</a><i class="bi bi-arrow-right"></i></li>
+           <li> <a href="#">Vision</a><i class="bi bi-arrow-right"></i></li>
+          <li> <a href="#">Team</a><i class="bi bi-arrow-right"></i></li>
+      </ul>
+    </div>
+    </li>
+
+            <li><i class="bi bi-pip-fill"></i><a href="#">Services</a>
+
+                <div class="submenue1">
+
+                    <ul>
+         
+                    <li> <a href="#">Web Design</a><i class="bi bi-arrow-right"></i></li>
+                    <li> <a href="#">Marketing</a><i class="bi bi-arrow-right"></i></li>
+                   <li> <a href="#">Mobile App</a><i class="bi bi-arrow-right"></i></li>
+               </ul>
+             </div>
+            </li>
+
+          
+            <li><i class="bi bi-tag"></i><a href="#">Pricing</a>
+
+                <div class="submenue1">
+
+                    <ul>
+         
+                    <li> <a href="#">Mission</a><i class="bi bi-arrow-right"></i></li>
+                    <li> <a href="#">Vision</a><i class="bi bi-arrow-right"></i></li>
+                   <li> <a href="#">Team</a><i class="bi bi-arrow-right"></i></li>
+               </ul>
+             </div>
+            </li>
+
+           
+            <li><i class="bi bi-cart3"></i><a href="#">Shop</a></li>
+
+            <li><i class="bi bi-phone"></i><a href="#">Contact</a>
+                <div class="submenue1">
+
+                    <ul>
+         
+                    <li> <a href="#">Social Media</a><i class="bi bi-arrow-right"></i></li>
+                    <li> <a href="#">@Linkedin</a><i class="bi bi-arrow-right"></i></li>
+               </ul>
+             </div>
+            </li>
+        </ul>
+    </div>
+    <main>
+
+
+    </main>
+</body>
+</html>
