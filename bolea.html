@@ -1,99 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-    <style>
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family:'open sans', sans-serif ;
-}
-
-header{
-    height: 100px;
-    display: flex; 
-    justify-content: space-around;
-    align-items: center;
-}
-
-ul{
-    display: flex;
-    list-style: none;
-}
-
-ul li a{
-    padding: 0 20px;
-    text-decoration: none;
-    color: #333;
-}
-
-
-li a ::after{
-    content: '';
-display: block;
-height: 4px;
-width: 0px;
-background: #c4c4f7;
-transition:all .5;
-}
-
-li a:hover::after{
-width: 200%;
-} 
-
-
-
-    </style>
-
-    <title>Document</title>
-
+    <title>
+Rock Paper Scissors
+    </title>
 </head>
 
 <body>
+    <p>Rock Paper Scissors</p>
 
-    <header class="logo">
-        <img src="/surage/tide.png" alt="" width="150px">
- 
-        <nav>
-            <ul>
+    <button onclick="const randomNumber = Math.random();
 
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Faqs</a></li>
-                <li><a href="#" class="signup-btn">Sign Up</a></li>
-            </ul>
+const computerMove = ''; 
 
-        </nav>
+    if (randomNumer >= 0 && randomNumber < 1 / 3) {
+        const computerMove = 'rock';
+    } else if (randomNumber >= 1 / 3 &&
+    randomNumber < 2 / 3) {
+        const computerMove = 'paper';
+    }else if (randomNumber >= 2 / 3 && randomNumber < 1){
+        const computerMove = 'scissors';
+    }
 
-    </header>
+    ">Rock</button>
 
-    <main>
+    <button>Paper</button>
 
-        <div class="content-left"> 
-            <h1>Digital</h1>
-            <h2>Marketing</h2>
-           
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatibus minima sequi id modi eum ipsum quidem ex
-                 recusandae excepturi debitis, eligendi atque hic praesentium vel ad, voluptates cum quam!</p>
-              <button class="cta">learn more </button>   
-        </div>
-
-        <div class="content-right">
-              </div>
-
-
-    </main>
+    <button>Scissors</button>
 </body>
+
 </html>
